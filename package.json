@@ -1,0 +1,16 @@
+{
+  "name": "azure-log-downloader",
+  "version": "1.0.0",
+  "description": "Downloads Azure Web App logs from Blob Storage on an hourly schedule",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "search": "node src/search-cli.js"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.23.0",
+    "@azure/identity": "^4.4.0",
+    "dotenv": "^16.4.5"
+  }
+}

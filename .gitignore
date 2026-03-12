@@ -1,0 +1,4 @@
+node_modules/
+.env
+downloaded-logs/
+.last-run-state.json
